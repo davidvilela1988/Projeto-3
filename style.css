@@ -1,0 +1,117 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.navbar {
+  background-color: red;
+}
+
+#header2 .nav .nav-link.active {
+  background-color: green;
+  color: rgb(236, 236, 11);
+}
+
+#header2 .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background-color: #ffeae6;
+}
+
+.section-title {
+  font-family: "Dancing Script", cursive;
+}
+
+#about-restaurant,
+#menu {
+  background-color: #f0f0f0;
+}
+
+.text-colored {
+  color: red;
+}
+
+#events {
+  background-color: rgb(210, 218, 253);
+}
+
+#contact {
+  background-color: rgb(210, 218, 253);
+}
+
+.nav-menu .nav-link.active,
+#contact button {
+  background-color: green;
+  color: rgb(236, 236, 11);
+}
+
+.nav-menu .nav-link:hover {
+  color: red;
+}
+
+.nav-menu .nav-link.active:hover {
+  color: rgb(236, 236, 11);
+}
+
+p {
+  text-align: justify;
+  font-style: italic;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  background-color: red;
+  color: rgb(236, 236, 11);
+  font-style: italic;
+}
+
+#davidvilela {
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  nav ul {
+    font-size: 0.7em;
+  }
+
+  #about-restaurant p {
+    font-size: 0.7em;
+  }
+
+  #events p {
+    font-size: 0.7em;
+  }
+
+  #menu button,
+  #menu h5,
+  #menu p {
+    font-style: italic;
+    font-size: 0.9em;
+  }
+
+  #menu p {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #image-chef {
+    margin-top: 250px;
+  }
+
+  #menu p {
+    text-align: center;
+  }
+}
